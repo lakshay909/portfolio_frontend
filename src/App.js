@@ -455,15 +455,33 @@ const App = () => {
                 </div>
               </div>
               <div className="flex gap-4">
-                <button className="bg-purple-500/20 hover:bg-purple-500/30 p-3 rounded-full transition-colors">
-                  <Github className="text-purple-400" size={20} />
-                </button>
-                <button className="bg-purple-500/20 hover:bg-purple-500/30 p-3 rounded-full transition-colors">
-                  <Linkedin className="text-purple-400" size={20} />
-                </button>
-                <button className="bg-purple-500/20 hover:bg-purple-500/30 p-3 rounded-full transition-colors">
-                  <Twitter className="text-purple-400" size={20} />
-                </button>
+                <a
+  href="https://github.com/lakshay909"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-purple-500/20 hover:bg-purple-500/30 p-3 rounded-full transition-colors"
+>
+  <Github className="text-purple-400" size={20} />
+</a>
+
+<a
+  href="https://www.linkedin.com/in/lakshay-narula-n8445/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-purple-500/20 hover:bg-purple-500/30 p-3 rounded-full transition-colors"
+>
+  <Linkedin className="text-purple-400" size={20} />
+</a>
+
+<a
+  href="https://twitter.com/yourusername"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-purple-500/20 hover:bg-purple-500/30 p-3 rounded-full transition-colors"
+>
+  <Twitter className="text-purple-400" size={20} />
+</a>
+
               </div>
             </div>
             <div>
