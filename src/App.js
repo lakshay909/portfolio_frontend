@@ -365,10 +365,15 @@ const App = () => {
                     </span>
                   ))}
                 </div>
-                <button className="flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors">
-                  <ExternalLink size={16} />
-                  View Project
-                </button>
+                <a 
+        href={project.githubLink}
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors"
+      >
+        <ExternalLink size={16} />
+        View Project
+      </a>
               </div>
             ))}
           </div>
